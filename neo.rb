@@ -5,6 +5,7 @@ $VERBOSE = nil
 
 begin
   require 'win32console'
+  require 'byebug'
 rescue LoadError
 end
 
